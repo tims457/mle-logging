@@ -8,7 +8,7 @@ import datetime
 from .._version import __version__
 
 
-console_width = 80
+console_width = 100
 
 
 def print_welcome() -> None:
