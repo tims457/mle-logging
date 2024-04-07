@@ -51,7 +51,7 @@ class WandbLog(object):
             )
         self.wandb_config = wandb_config
         # config should contain - key, entity, project, group (experiment)
-        for k in ["key", "entity", "project", "group"]:
+        for k in ["project", "group"]:
             assert k in self.wandb_config.keys()
 
         # Setup the environment variables for W&B logging.
